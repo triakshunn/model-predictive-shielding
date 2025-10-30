@@ -18,7 +18,7 @@ def evaluate_dt():
     policy = load_dt_policy(dirname, fname)
 
     # Step 2: Environment
-    env = gym.make('CartPole-v0')
+    env = gym.make('CartPole-v0',render_mode="rgb_array")
 
     # Step 3: Evaluate policy
     rew = test_policy(env, policy, lambda obs: obs, n_test_rollouts)

@@ -51,7 +51,7 @@ class CartPoleStableEnv:
         #self.max_steps_ = 1000
 
         # Step 3: Data structures for rendering
-        self.env = gym.make('CartPole-v0')
+        self.env = gym.make('CartPole-v0',render_mode="human")
         self.env.reset()
 
     #
