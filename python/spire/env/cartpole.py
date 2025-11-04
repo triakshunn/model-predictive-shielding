@@ -47,7 +47,7 @@ class CartPoleStableEnv:
         self.mp = 0.1
         self.l = 0.5
         self.dt = 0.02
-        self.max_steps_ = 200 
+        self.max_steps_ = 200
 
         # Step 3: Data structures for rendering
         self.env = gym.make('CartPole-v0',render_mode="human")  ### this makes the cartpole render in evaluation

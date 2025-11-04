@@ -1,0 +1,2 @@
+Loaded actor from ../data/bptt_cartpole/policy.dat
+Loaded actor from ../data/bptt_cartpole/rec_policy.dat
