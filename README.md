@@ -9,6 +9,11 @@ Contains the code for the model predictive shielding algorithm proposed in [http
 ```
     $ cd python
     $ python -m spire.main.cartpole_test
+    $ python -m spire.main.cartpole_train
+```
+Note: `-m` takes a module name (no `.py`). Run from the `python` directory (so `spire` is importable). Alternatively:
+```
+    $ PYTHONPATH=python python -m spire.main.cartpole_train
 ```
 
 - The matlab directory contains the code used to perform LQR verification for the cart-pole dynamical system. This code depends on SOSTOOLS 3.03, which is available at https://www.cds.caltech.edu/sostools. We used the SeDuMi optimizer with SOSTOOLS, available at https://github.com/sqlp/sedumi.

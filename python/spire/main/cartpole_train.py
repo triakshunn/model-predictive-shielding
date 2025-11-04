@@ -17,8 +17,8 @@ def main():
     hidden_size = 200
     output_size = 1
     dir = '../data/bptt_cartpole'
-    fname = 'policy.dat'
-    rec_fname = 'rec_policy.dat'
+    fname = 'policy_new_trained.dat'
+    rec_fname = 'rec_policy_new_trained.dat'
 
     # bptt
     action_dim = 1
